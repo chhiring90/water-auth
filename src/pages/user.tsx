@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../hooks";
 
 export const User: FC = () => {
@@ -33,6 +33,18 @@ export const User: FC = () => {
           </button>
         </div>
       </div>
+      <ul className="p-4 flex items-end justify-end">
+        <li className="px-2">
+          <a href="https://github.com/chhiring90/fire-auth" target="_blank">
+            🔥 
+          </a>
+        </li>
+        <li className="px-2">
+          <a href="https://github.com/chhiring90/water-auth" target="_blank">
+            💧 
+          </a>
+        </li>
+      </ul>
     </div>
   );
 };
