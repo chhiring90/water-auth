@@ -17,7 +17,7 @@ export const User: FC = () => {
       <div className="flex flex-col items-center py-10">
         <img
           className="mb-3 w-24 h-24 rounded-full shadow-lg"
-          src="https://avatars.dicebear.com/api/human/happy.svg"
+          src="https://avatars.dicebear.com/api/big-smile/happy.svg"
           alt="Bonnie image"
         />
         <h5 className="mb-1 text-xl font-bold uppercase text-white font-mono">
